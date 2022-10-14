@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"..\obj\main.o"
+"..\obj\stm32f10x_it.o"
+"..\obj\system_stm32f10x.o"
+"..\obj\led.o"
+"..\obj\mpu6050.o"
+"..\obj\mpuiic.o"
+"..\obj\inv_mpu.o"
+"..\obj\inv_mpu_dmp_motion_driver.o"
+"..\obj\delay.o"
+"..\obj\sys.o"
+"..\obj\usart.o"
+"..\obj\syn.o"
+"..\obj\esp8266.o"
+"..\obj\bh1750.o"
+"..\obj\mcu_config.o"
+"..\obj\core_cm3.o"
+"..\obj\startup_stm32f10x_md.o"
+"..\obj\misc.o"
+"..\obj\stm32f10x_gpio.o"
+"..\obj\stm32f10x_dbgmcu.o"
+"..\obj\stm32f10x_rcc.o"
+"..\obj\stm32f10x_usart.o"
+"..\obj\stm32f10x_exti.o"
+"..\obj\stm32f10x_tim.o"
+--library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\MPU6050∂¡»°.map" -o ..\OBJ\MPU6050∂¡»°.axf
